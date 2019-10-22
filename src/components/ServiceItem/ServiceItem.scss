@@ -1,0 +1,29 @@
+@import "../all";
+
+.ServiceItem {
+  width: 270px;
+  height: 296px;
+  color: #fff;
+  position: relative;
+  padding-top: 5%;
+  margin: 0 15px;
+
+  p {
+    font-size: 16px !important;
+    color: #fff !important;
+    text-shadow: #000 1px 1px;
+  }
+
+  .btn-yellow {
+    background: $btn-bg-color;
+    color: $btn-color;
+    border-color: $btn-bg-color;
+  }
+
+  .btn-yellow:hover,
+  .btn-yellow:active {
+    background: $btn-hover-color;
+    color: $btn-color;
+    border-color: $btn-hover-color;
+  }
+}
